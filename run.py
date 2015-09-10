@@ -17,8 +17,8 @@ ServerIncompatibleError - the remote API is not a CKAN API
 '''
 """
 
-from remoteckan import RemoteCKAN
-from actions import *
+from ckan_api.remoteckan import RemoteCKAN
+from ckan_api.actions import *
 
 
 def main(CKAN_URL, API_KEY, OWNER_ORG):

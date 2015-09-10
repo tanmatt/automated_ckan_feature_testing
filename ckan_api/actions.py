@@ -56,7 +56,7 @@ def do_package_create(ckan_obj, ownr_org):
 
 
 def do_resource_create(ckan_obj):
-    res = ckan_obj.action.resource_create(package_id='automated_ckan_feature_testing', url='samplecsv', upload=open('samplecsv.csv'))
+    res = ckan_obj.action.resource_create(package_id='automated_ckan_feature_testing', url='samplecsv', upload=open('files/samplecsv.csv'))
     print '\nCreating new csv resource: '
     print res
     print 'Resource with %s is created inside %s package' % (res['id'], res['package_id'])

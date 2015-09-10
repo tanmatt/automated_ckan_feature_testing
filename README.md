@@ -44,4 +44,14 @@ This project does not require to be run from the CKAN server and can be run from
 - After testing is done, the package will be deleted and hence if you already have a package with this name (very rare) then rename the package to anything else in `actions.py`
 
 ## Contribution Guide
-We all grow together. Please feel free to make changes and make the code more robust. Please use `dev` branch for all your pull requests. This branch will be always updated with the lastest code. `master` branch should have the most recent stable release code.
+We all grow together. Please feel free to make changes and make the code more robust. Please use `dev` branch for all your pull requests. This branch will be always updated with the latest code. `master` branch should have the most recent stable release code.
+
+
+----------------------
+
+##### Planned ToDo
+ 1. Add json file upload
+ 2. Add that to datastore table
+ 3. More comprehensive error messages
+ 4. Exception catching and better reporting
+ 5. Categorizing and separating files in directories  

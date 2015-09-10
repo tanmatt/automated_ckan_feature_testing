@@ -1,4 +1,4 @@
-# Automated CKAN-feature testing
+# Automated CKAN-feature Testing
 
 This is a project to do a test run of all the parts of the CKAN instance with just a single command.
 It also includes automated tasks like
@@ -20,7 +20,7 @@ This project does not require to be run from the CKAN server and can be run from
 - `my_test_org`: Create a test-organization (say 'my_test_org')
 
 
-## Installation and Instructions for running
+## Installation and Instructions for Running
 
 1. Get the code and files
     ```
@@ -38,12 +38,20 @@ This project does not require to be run from the CKAN server and can be run from
     - Make sure to install the package using `pip` or `easy_install`
 - Follow the steps mentioned in pre-requisites
 
-## Not so important notes
+## Not So Important Notes
 
 - This project creates 'automated_ckan_feature_testing' package.
 - After testing is done, the package will be deleted and hence if you already have a package with this name (very rare) then rename the package to anything else in `actions.py`
 
 ## Contribution Guide
-We all grow together. Please feel free to make changes and make the code more robust. Please use `dev` branch for all your pull requests. This branch will be always updated with the lastest code. `master` branch should have the most recent stable release code.
+We all grow together. Please feel free to make changes and make the code more robust. Please use `dev` branch for all your pull requests. This branch will be always updated with the latest code. `master` branch should have the most recent stable release code.
 
 
+----------------------
+
+##### Planned ToDo
+ 1. Add json file upload
+ 2. Add that to datastore table
+ 3. More comprehensive error messages
+ 4. Exception catching and better reporting
+ 5. Categorizing and separating files in directories  
